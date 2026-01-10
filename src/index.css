@@ -6,9 +6,10 @@
 
 @layer base {
   :root {
-    /* Background gradient colors */
-    --gradient-start: 67 37% 79%;
-    --gradient-end: 166 46% 77%;
+    /* Background gradient colors - warm yellow top, turquoise middle, soft pink bottom */
+    --gradient-top: 55 75% 85%;
+    --gradient-middle: 175 50% 75%;
+    --gradient-bottom: 330 65% 82%;
     
     /* Cloud colors */
     --cloud-light: 192 89% 63%;
@@ -86,8 +87,9 @@
   .gradient-background {
     background: linear-gradient(
       180deg,
-      hsl(var(--gradient-start)) 0%,
-      hsl(var(--gradient-end)) 100%
+      hsl(var(--gradient-top)) 0%,
+      hsl(var(--gradient-middle)) 50%,
+      hsl(var(--gradient-bottom)) 100%
     );
     min-height: 100vh;
   }

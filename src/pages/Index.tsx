@@ -56,7 +56,7 @@ const Index = () => {
     <div className="gradient-background min-h-screen pb-8 overflow-hidden">
       {/* Welcome overlay */}
       {showWelcome && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-gradient-to-b from-[#DCE0B5] to-[#AADFD5]">
+        <div className="fixed inset-0 z-50 flex items-center justify-center gradient-background">
           <div className="text-center animate-scale-in">
             <CloudCompanion emotion="happy" size="large" />
             <h1 className="text-3xl font-bold text-ink mt-6">¡Hola!</h1>
