@@ -8,9 +8,9 @@ interface CloudCompanionProps {
 
 const CloudCompanion = ({ emotion = 'happy', isBreathing = false, size = 'large' }: CloudCompanionProps) => {
   const sizeClasses = {
-    small: 'w-20 h-20',
-    medium: 'w-32 h-32',
-    large: 'w-48 h-48',
+    small: 'w-28 h-28',
+    medium: 'w-44 h-44',
+    large: 'w-64 h-64',
   };
 
   return (
